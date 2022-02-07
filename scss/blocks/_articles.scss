@@ -1,0 +1,330 @@
+.articles{
+  padding: 80px 0;
+  background-color: #F2F2F2;
+}
+.articles__title{
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2D314D;
+  margin: 0;
+  margin-bottom: 295px;
+}
+.articles__list{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.articles__item{
+  position: relative;
+  max-width: 255px;
+  list-style: none;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 5px;
+  & + .articles__item{
+    margin-left: 30px;
+  }
+  &:nth-child(1)::before{
+    position: absolute;
+    content: "";
+    background-image: url(../../images/money.jpg);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 200px;
+    left: 0;
+    top:-200px;
+  }
+  &:nth-child(2)::before{
+    position: absolute;
+    content: "";
+    background-image: url(../../images/food.jpg);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 200px;
+    left: 0;
+    top:-200px;
+  }
+  &:nth-child(3)::before{
+    position: absolute;
+    content: "";
+    background-image: url(../../images/wing.jpg);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 200px;
+    left: 0;
+    top:-200px;
+  }
+  &:nth-child(4)::before{
+    position: absolute;
+    content: "";
+    background-image: url(../../images/decoration.jpg);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 200px;
+    left: 0;
+    top:-200px;
+  }
+}
+.articles__bold{
+  display: block;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: -0.15625px;
+  color: #9597A5;
+  margin-bottom: 8px;
+}
+.article__item-title{
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.285714px;
+  color: #2D314D;
+  margin: 0;
+  margin-bottom: 8px;
+  &:hover{
+    color: #30C88F;
+  }
+}
+.article__item-text{
+  font-size: 13px;
+  width: 207px;
+  line-height: 18px;
+  letter-spacing: -0.203125px;
+  color: #9597A5;
+  margin: 0;
+}
+
+
+@media only screen and (max-width:425px){
+  .articles{
+    padding: 80px 0;
+    background-color: #F2F2F2;
+    & .container{
+      padding: 0 24px;
+    }
+  }
+  .articles__title{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.571429px;
+    color: #2D314D;
+    margin: 0;
+    margin-bottom: 256px;
+  }
+  .articles__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .articles__item{
+    position: relative;
+    max-width: 327px;
+    list-style: none;
+    padding: 29px;
+    background-color: #fff;
+    border-radius: 5px;
+    & + .articles__item{
+      margin-left: 0;
+      margin-top: 224px;
+    }
+    &:nth-child(1)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/money.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 327px;
+      height: 200px;
+      left: 0;
+      top:-200px;
+    }
+    &:nth-child(2)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/food.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 327px;
+      height: 200px;
+      left: 0;
+      top:-200px;
+    }
+    &:nth-child(3)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/wing.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 327px;
+      height: 200px;
+      left: 0;
+      top:-200px;
+    }
+    &:nth-child(4)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/decoration.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 327px;
+      height: 200px;
+      left: 0;
+      top:-200px;
+    }
+  }
+  .articles__bold{
+    display: block;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: -0.15625px;
+    color: #9597A5;
+    margin-bottom: 8px;
+  }
+  .article__item-title{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.285714px;
+    color: #2D314D;
+    margin: 0;
+    margin-bottom: 8px;
+    &:hover{
+      color: #30C88F;
+    }
+  }
+  .article__item-text{
+    font-size: 13px;
+    width: 257px;
+    line-height: 18px;
+    letter-spacing: -0.203125px;
+    color: #9597A5;
+    margin: 0;
+  }
+}
+
+
+
+@media only screen and (max-width:320px){
+  .articles{
+    padding: 80px 0;
+    background-color: #F2F2F2;
+    & .container{
+      padding: 0 24px;
+    }
+  }
+  .articles__title{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.571429px;
+    color: #2D314D;
+    margin: 0;
+    margin-bottom: 256px;
+  }
+  .articles__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .articles__item{
+    position: relative;
+    max-width: 272px;
+    list-style: none;
+    padding: 29px;
+    background-color: #fff;
+    border-radius: 5px;
+    & + .articles__item{
+      margin-left: 0;
+      margin-top: 224px;
+    }
+    &:nth-child(1)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/money.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 272px;
+      height: 200px;
+      left: 0;
+      top:-200px;
+    }
+    &:nth-child(2)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/food.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 272px;
+      height: 200px;
+      left: 0;
+      top:-200px;
+    }
+    &:nth-child(3)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/wing.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 272px;
+      height: 200px;
+      left: 0;
+      top:-200px;
+    }
+    &:nth-child(4)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/decoration.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 272px;
+      height: 200px;
+      left: 0;
+      top:-200px;
+    }
+  }
+  .articles__bold{
+    display: block;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: -0.15625px;
+    color: #9597A5;
+    margin-bottom: 8px;
+  }
+  .article__item-title{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.285714px;
+    color: #2D314D;
+    margin: 0;
+    margin-bottom: 8px;
+    &:hover{
+      color: #30C88F;
+    }
+  }
+  .article__item-text{
+    font-size: 13px;
+    width: 230px;
+    line-height: 18px;
+    letter-spacing: -0.203125px;
+    color: #9597A5;
+    margin: 0;
+  }
+}
+
+

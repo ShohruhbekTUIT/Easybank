@@ -1,0 +1,428 @@
+.service{
+  background-color: #F4F5F7;
+  padding: 96px 0 94px 0;
+}
+.service__title{
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2D314D;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.service__text{
+  font-family: "Public Sans";
+  font-size: 18px;
+  line-height: 28px;
+  width: 635px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+  margin: 0;
+  margin-bottom: 184px;
+}
+.service__list{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.service__item{
+  position: relative;
+  list-style: none;
+  width: 254px;
+  & + .service__item{
+    margin-left: 30px;
+  }
+  &:nth-child(1)::before{
+    position: absolute;
+    content: "";
+    background-image: url(../../images/card.svg);
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    top:-112px;
+  }
+  &:nth-child(2)::before{
+    position: absolute;
+    content: "";
+    background-image: url(../../images/budget.svg);
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    top:-112px;
+  }
+  &:nth-child(3)::before{
+    position: absolute;
+    content: "";
+    background-image: url(../../images/onboard.svg);
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    top:-112px;
+  }
+  &:nth-child(4)::before{
+    position: absolute;
+    content: "";
+    background-image: url(../../images/api.svg);
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    top:-112px;
+  }
+}
+.service__item-title{
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.428571px;
+  color: #2D314D;
+  margin: 0;
+  margin-bottom: 26px;
+}
+.service__item-text{
+  font-family:"Public Sans";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #9597A5;
+  margin: 0;
+}
+
+@media only screen and (max-width:425px){
+  .service{
+    background-color: #F4F5F7;
+    padding: 64px 0 64px 0;
+    & .container{
+      padding: 0 24px;
+    }
+  }
+  .service__title{
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 38px;
+    max-width: 327px;
+    display: block;
+    letter-spacing: -0.571429px;
+    color: #2D314D;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 14px;
+  }
+  .service__text{
+    font-family: "Public Sans";
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.234375px;
+    max-width: 376px;
+    color: #9597A5;
+    margin: 0;
+    margin-bottom: 170px;
+  }
+  .service__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .service__item{
+    position: relative;
+    list-style: none;
+    text-align: center;
+    width: 254px;
+    & + .service__item{
+      margin-left: 0;
+      margin-top: 128px;
+    }
+    &:nth-child(1)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/card.svg);
+      background-repeat: no-repeat;
+      width: 72px;
+      height: 72px;
+      top:-85px;
+      left: 91px;
+    }
+    &:nth-child(2)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/budget.svg);
+      background-repeat: no-repeat;
+      width: 72px;
+      height: 72px;
+      top:-85px;
+      left: 91px;
+    }
+    &:nth-child(3)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/onboard.svg);
+      background-repeat: no-repeat;
+      width: 72px;
+      height: 72px;
+      top:-85px;
+      left: 91px;
+    }
+    &:nth-child(4)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/api.svg);
+      background-repeat: no-repeat;
+      width: 72px;
+      height: 72px;
+      top:-85px;
+      left: 91px;
+    }
+  }
+  .service__item-title{
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.428571px;
+    color: #2D314D;
+    margin: 0;
+    margin-bottom: 26px;
+  }
+  .service__item-text{
+    font-family:"Public Sans";
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #9597A5;
+    margin: 0;
+  }
+}
+
+
+@media only screen and (max-width:375px){
+  .service{
+    background-color: #F4F5F7;
+    padding: 64px 0 64px 0;
+    & .container{
+      padding: 0 24px;
+    }
+  }
+  .service__title{
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 38px;
+    max-width: 327px;
+    display: block;
+    letter-spacing: -0.571429px;
+    color: #2D314D;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 14px;
+  }
+  .service__text{
+    font-family: "Public Sans";
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.234375px;
+    max-width: 327px;
+    color: #9597A5;
+    margin: 0;
+    margin-bottom: 170px;
+  }
+  .service__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .service__item{
+    position: relative;
+    list-style: none;
+    text-align: center;
+    width: 254px;
+    & + .service__item{
+      margin-left: 0;
+      margin-top: 128px;
+    }
+    &:nth-child(1)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/card.svg);
+      background-repeat: no-repeat;
+      width: 72px;
+      height: 72px;
+      top:-85px;
+      left: 91px;
+    }
+    &:nth-child(2)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/budget.svg);
+      background-repeat: no-repeat;
+      width: 72px;
+      height: 72px;
+      top:-85px;
+      left: 91px;
+    }
+    &:nth-child(3)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/onboard.svg);
+      background-repeat: no-repeat;
+      width: 72px;
+      height: 72px;
+      top:-85px;
+      left: 91px;
+    }
+    &:nth-child(4)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/api.svg);
+      background-repeat: no-repeat;
+      width: 72px;
+      height: 72px;
+      top:-85px;
+      left: 91px;
+    }
+  }
+  .service__item-title{
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.428571px;
+    color: #2D314D;
+    margin: 0;
+    margin-bottom: 26px;
+  }
+  .service__item-text{
+    font-family:"Public Sans";
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #9597A5;
+    margin: 0;
+  }
+}
+
+
+@media only screen and (max-width:320px){
+  .service{
+    background-color: #F4F5F7;
+    padding: 55px 0 55px 0;
+    & .container{
+      padding: 0 24px;
+    }
+  }
+  .service__title{
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 28px;
+    max-width: 272px;
+    display: block;
+    letter-spacing: -0.571429px;
+    color: #2D314D;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 14px;
+  }
+  .service__text{
+    font-family: "Public Sans";
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.234375px;
+    max-width: 272px;
+    color: #9597A5;
+    margin: 0;
+    margin-bottom: 130px;
+  }
+  .service__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .service__item{
+    position: relative;
+    list-style: none;
+    text-align: center;
+    width: 254px;
+    & + .service__item{
+      margin-left: 0;
+      margin-top: 128px;
+    }
+    &:nth-child(1)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/card.svg);
+      background-repeat: no-repeat;
+      width: 72px;
+      height: 72px;
+      top:-85px;
+      left: 91px;
+    }
+    &:nth-child(2)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/budget.svg);
+      background-repeat: no-repeat;
+      width: 72px;
+      height: 72px;
+      top:-85px;
+      left: 91px;
+    }
+    &:nth-child(3)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/onboard.svg);
+      background-repeat: no-repeat;
+      width: 72px;
+      height: 72px;
+      top:-85px;
+      left: 91px;
+    }
+    &:nth-child(4)::before{
+      position: absolute;
+      content: "";
+      background-image: url(../../images/api.svg);
+      background-repeat: no-repeat;
+      width: 72px;
+      height: 72px;
+      top:-85px;
+      left: 91px;
+    }
+  }
+  .service__item-title{
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.428571px;
+    color: #2D314D;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  .service__item-text{
+    font-family:"Public Sans";
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: #9597A5;
+    margin: 0;
+  }
+}
