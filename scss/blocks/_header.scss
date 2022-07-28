@@ -85,10 +85,10 @@
     max-width: 425px;
     position: fixed;
     z-index: 13;
-    padding: 22px 0;
+    padding: 10px 0;
     background-color: #fff;
     & .container{
-      padding: 0 24px;
+      padding: 0 10px;
       display: flex;
       justify-content: space-between;
     }
@@ -116,14 +116,14 @@
 
 @media only screen and (max-width:375px){
   .site-header{
-    width: 100%;
+    width: 85vw;
     max-width: 375px;
     position: fixed;
     z-index: 13;
-    padding: 22px 0;
+    padding: 6px 0;
     background-color: #fff;
     & .container{
-      padding: 0 24px;
+      padding: 0 6px;
       display: flex;
       justify-content: space-between;
     }
@@ -154,10 +154,10 @@
     max-width: 320px;
     position: fixed;
     z-index: 13;
-    padding: 22px 0;
+    padding: 3px 0;
     background-color: #fff;
     & .container{
-      padding: 0 24px;
+      padding: 0 3px;
       display: flex;
       justify-content: space-between;
     }
