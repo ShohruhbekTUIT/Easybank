@@ -77,6 +77,59 @@
 }
 .rasm{
   display: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  &__img{
+    // width: 100vw;
+    // height: 100vh;
+    object-fit: cover;
+  }
+  .download{
+    text-decoration: none;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    animation: Animation linear 1.7s 0.2s infinite;
+    & img{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  @keyframes Animation{
+    0%{
+      transform: translate(0px , 0px);
+    }
+    25%{
+      transform: translate(0px ,7px );
+    }
+    50%{
+      transform: translate(0px , 0px);
+    }
+    75%{
+      transform: translate(0px ,-7px );
+    }
+    100%{
+      transform: translate(0px , 0px);
+    }
+  }
+  .cancel{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    top: 0;
+    right: 0;
+    & img{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+  }
 }
 
 @media only screen and (max-width:425px){
@@ -181,6 +234,34 @@
       // width: 100vw;
       // height: 100vh;
       object-fit: cover;
+    }
+    .download{
+      text-decoration: none;
+      position: absolute;
+      right: 15px;
+      bottom: 15px;
+      animation: Animation linear 1.7s 0.2s infinite;
+      & img{
+        width: 40px;
+        height: 40px;
+      }
+    }
+    @keyframes Animation{
+      0%{
+        transform: translate(0px , 0px);
+      }
+      25%{
+        transform: translate(0px ,7px );
+      }
+      50%{
+        transform: translate(0px , 0px);
+      }
+      75%{
+        transform: translate(0px ,-7px );
+      }
+      100%{
+        transform: translate(0px , 0px);
+      }
     }
     .cancel{
       position: absolute;
@@ -292,18 +373,56 @@
   }
   .rasm{
     display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
     &__img{
-      width: 100vw;
-      height: 100vh;
+      // width: 100vw;
+      // height: 100vh;
+      object-fit: cover;
+    }
+    .download{
+      text-decoration: none;
+      position: absolute;
+      right: 15px;
+      bottom: 15px;
+      animation: Animation linear 1.7s 0.2s infinite;
+      & img{
+        width: 40px;
+        height: 40px;
+      }
+    }
+    @keyframes Animation{
+      0%{
+        transform: translate(0px , 0px);
+      }
+      25%{
+        transform: translate(0px ,7px );
+      }
+      50%{
+        transform: translate(0px , 0px);
+      }
+      75%{
+        transform: translate(0px ,-7px );
+      }
+      100%{
+        transform: translate(0px , 0px);
+      }
     }
     .cancel{
+      position: absolute;
       font-size: 20px;
       font-weight: 700;
-      // background-color: transparent;
+      background-color: transparent;
       border: none;
+      top: 0;
+      right: 0;
       & img{
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
       }
     }
@@ -418,23 +537,58 @@
   }
   .rasm{
     display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
     &__img{
-      width: 100vw;
-      height: 100vh;
+      // width: 100vw;
+      // height: 100vh;
+      object-fit: cover;
+    }
+    .download{
+      text-decoration: none;
+      position: absolute;
+      right: 15px;
+      bottom: 15px;
+      animation: Animation linear 1.7s 0.2s infinite;
+      & img{
+        width: 40px;
+        height: 40px;
+      }
+    }
+    @keyframes Animation{
+      0%{
+        transform: translate(0px , 0px);
+      }
+      25%{
+        transform: translate(0px ,7px );
+      }
+      50%{
+        transform: translate(0px , 0px);
+      }
+      75%{
+        transform: translate(0px ,-7px );
+      }
+      100%{
+        transform: translate(0px , 0px);
+      }
     }
     .cancel{
+      position: absolute;
       font-size: 20px;
       font-weight: 700;
-      // background-color: transparent;
+      background-color: transparent;
       border: none;
+      top: 0;
+      right: 0;
       & img{
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
       }
     }
-  }
-  #img-btn{
-    border: none;
   }
 }
