@@ -84,9 +84,11 @@
   margin: 0;
   padding: 0;
   &__img{
-    // width: 100vw;
-    // height: 100vh;
-    object-fit: cover;
+    width: 400px;
+    height: 600px;
+    box-shadow: 0 5px 30px 0 rgba(0,0,0,0.2);
+    background: rgb(34,36,195);
+    background: linear-gradient(0deg, rgba(34,36,195,1) 22%, rgba(253,45,45,1) 78%);
   }
   .download{
     text-decoration: none;
@@ -231,9 +233,11 @@
     margin: 0;
     padding: 0;
     &__img{
-      // width: 100vw;
-      // height: 100vh;
-      object-fit: cover;
+      width: 400px;
+      height: 600px;
+      box-shadow: 0 5px 30px 0 rgba(0,0,0,0.2);
+      background: rgb(34,36,195);
+      background: linear-gradient(0deg, rgba(34,36,195,1) 22%, rgba(253,45,45,1) 78%);
     }
     .download{
       text-decoration: none;
@@ -380,9 +384,11 @@
     margin: 0;
     padding: 0;
     &__img{
-      // width: 100vw;
-      // height: 100vh;
-      object-fit: cover;
+      width: 400px;
+      height: 600px;
+      box-shadow: 0 5px 30px 0 rgba(0,0,0,0.2);
+      background: rgb(34,36,195);
+      background: linear-gradient(0deg, rgba(34,36,195,1) 22%, rgba(253,45,45,1) 78%);
     }
     .download{
       text-decoration: none;
@@ -544,9 +550,11 @@
     margin: 0;
     padding: 0;
     &__img{
-      // width: 100vw;
-      // height: 100vh;
-      object-fit: cover;
+      width: 400px;
+      height: 600px;
+      box-shadow: 0 5px 30px 0 rgba(0,0,0,0.2);
+      background: rgb(34,36,195);
+      background: linear-gradient(0deg, rgba(34,36,195,1) 22%, rgba(253,45,45,1) 78%);
     }
     .download{
       text-decoration: none;
